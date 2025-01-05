@@ -2,12 +2,12 @@
 **
 ** NanoKit Library Source File
 **
-** File         :  lib.rs
-** Module       :  root
+** File         :  mod.rs
+** Module       :  drawing
 ** Crate        :  NanoUI
 ** Project      :  NanoKit
 ** Author       :  SH
-** Description  :  This file contains the root NanoUI interface.
+** Description  :  This file contains the NanoUI drawing interface.
 **
 ***************************************************************/
 
@@ -19,19 +19,9 @@
 * MARK: CHILD MODULES
 ***************************************************************/
 
-pub mod app;
-pub mod window;
-pub mod view;
-pub mod drawing;
-
-
 /***************************************************************
 * MARK: TYPE DEFINITIONS
 ***************************************************************/
-
-pub type Application = usize;
-pub type Window = usize;
-pub type View = usize;
 
 /***************************************************************
 * MARK: STATIC VARIABLES & CONSTANTS
